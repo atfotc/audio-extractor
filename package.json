@@ -1,0 +1,22 @@
+{
+    "name": "audio-extractor",
+    "version": "0.1.0",
+    "main": "./source/outer.js",
+    "scripts": {
+        "start": "concurrently 'node bundle.js --no-hmr' 'electron .'",
+        "package": "electron-packager ./ 'Audio Extractor' --overwrite --out ./applications --executableName 'Audio Extractor' --platform=win32,darwin"
+    },
+    "dependencies": {
+        "ffbinaries": "^1.1.0",
+        "fluent-ffmpeg": "^2.1.2"
+    },
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-plugin-transform-class-properties": "^6.24.1",
+        "babel-plugin-transform-object-rest-spread": "^6.26.0",
+        "concurrently": "^3.6.0",
+        "electron": "^2.0.5",
+        "electron-packager": "^12.1.0",
+        "parcel-bundler": "^1.9.7"
+    }
+}
