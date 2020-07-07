@@ -15,7 +15,7 @@
         "babel-plugin-transform-class-properties": "^6.24.1",
         "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "concurrently": "^3.6.0",
-        "electron": "^2.0.5",
+        "electron": "^7.2.4",
         "electron-packager": "^12.1.0",
         "parcel-bundler": "^1.9.7"
     }
